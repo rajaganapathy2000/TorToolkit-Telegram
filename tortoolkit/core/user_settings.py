@@ -24,7 +24,7 @@ no = "❌"
 yes = "✅"
 # Central object is not used its Acknowledged 
 tordb = TorToolkitDB()
-header =  '<b>**TorToolKit** by <a href="https://github.com/yash-dk">YashDK</a></b>\n<u>USER SETTINGS MENU - v1</u>'
+header =  '<u>USER SETTINGS MENU</u>'
 async def handle_user_setting_callback(e):
     db = tordb
     sender_id = str(e.sender_id)
@@ -37,7 +37,7 @@ async def handle_user_setting_callback(e):
     
     if cmd[-1] != sender_id:
         print("Sender id",sender_id," - - ",cmd[-1])
-        await e.answer("Dont touch sender dosent match.",alert=True)
+        await e.answer("Dont touch it 😡🤬! It's not your file😡.",alert=True)
         #await e.delete()
         return
     if cmd[1] == "mycmd":
@@ -65,7 +65,7 @@ async def handle_user_setting_callback(e):
         await general_input_manager(e,mmes,"THUMBNAIL","str",val,sender_id,"thumbmenu")  
 
     elif cmd[1] == "selfdest":
-        await e.answer("Closed")
+        await e.answer("Closed ✔️")
         await e.delete()
     elif cmd[1] == "change_drive":
         await e.answer(f"Changed default drive to {cmd[2]}.",alert=True)
@@ -120,9 +120,9 @@ async def handle_user_settings(e,edit=False,msg="",submenu=None,sender_id=None):
 
 
         if edit:
-            rmess = await e.edit(header+"\nEnjoiii.\n"+msg,parse_mode="html",buttons=menu,link_preview=False, file="toolkit.jpg")
+            rmess = await e.edit(header+"\nEnjoy Leeching 🥳.\n"+msg,parse_mode="html",buttons=menu,link_preview=False, file="toolkit.jpg")
         else:
-            rmess = await e.reply(header+"\nEnjoiii.\n",parse_mode="html",buttons=menu,link_preview=False, file="toolkit.jpg")
+            rmess = await e.reply(header+"\nEnjoy Leeching 🥳.\n",parse_mode="html",buttons=menu,link_preview=False, file="toolkit.jpg")
     elif submenu == "rclonemenu":
         rcval = await get_string_variable("RCLONE_CONFIG",menu,"rcloneconfig",sender_id)
         if rcval != "None":
