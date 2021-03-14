@@ -8,7 +8,7 @@ except:
         API_HASH = ""
         API_ID = 
         BOT_TOKEN = ""
-        BASE_URL_OF_BOT = "http://18.218.13.221"
+        BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
