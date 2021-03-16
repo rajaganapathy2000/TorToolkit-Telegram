@@ -5,16 +5,16 @@ except:
         # Set true if its VPS
         IS_VPS = True
         
-        API_HASH = ""
-        API_ID = 
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "795e3027e6144207a130966d96a93f00"
+        API_ID = 2842684
+        BOT_TOKEN = "1688518356:AAEQotzshpfg1p4JzrRFJL2woeXAH_gsBJI"
+        BASE_URL_OF_BOT = "http://3.131.135.112"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [-1001317315410,1655338083]
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -35,7 +35,7 @@ except:
         REMAINING_STR = "░"
 
         # DB URI for access
-        DB_URI = ""
+        DB_URI = "postgres://ngfjcfpssljcwh:87786288ea9024f278021b8fe79118254fd9d1b4a76f9189d09d98dbff2921e4@ec2-34-230-167-186.compute-1.amazonaws.com:5432/dd409no9927suk"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
