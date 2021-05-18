@@ -5,10 +5,10 @@ except:
         # Set true if its VPS
         IS_VPS = True
         
-        API_HASH = "795e3027e6144207a130966d96a93f00"
-        API_ID = 2842684
-        BOT_TOKEN = "1688518356:AAEQotzshpfg1p4JzrRFJL2woeXAH_gsBJI"
-        BASE_URL_OF_BOT = "http://13.59.71.117"
+        API_HASH = "ec83821f3c5f1202d8be508e2c925586"
+        API_ID = 5376206
+        BOT_TOKEN = "1737204838:AAHnWknQ_kSVsaOYengdNIDdABfJj8TpD1M"
+        BASE_URL_OF_BOT = "http://test.com/"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
@@ -20,10 +20,10 @@ except:
         GD_INDEX_URL = False
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 20
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 2100000000
 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
@@ -35,7 +35,7 @@ except:
         REMAINING_STR = "░"
 
         # DB URI for access
-        DB_URI = "postgres://ngfjcfpssljcwh:87786288ea9024f278021b8fe79118254fd9d1b4a76f9189d09d98dbff2921e4@ec2-34-230-167-186.compute-1.amazonaws.com:5432/dd409no9927suk"
+        DB_URI = "postgres://dvtaafaiqvhdyt:2c174ecfb5555d99c6d3b223dc5fc85aae176b3b61d9f4c890656f939f796c4d@ec2-54-160-96-70.compute-1.amazonaws.com:5432/db5rcamqrn5vo0"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -61,10 +61,10 @@ except:
         DEF_RCLONE_DRIVE = ""
 
         # Max size of a playlist that is allowed (Number of videos)
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 50
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 100
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
